@@ -110,11 +110,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1157990608
+      Data2: 1187077508
+      Data3: -1036315463
+      Data4: -1406683969
+    Path: event:/Music/Underground_Zone_4
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -124,8 +124,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &3071225590836398989
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,11 +236,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 158683078
+      Data2: 1336612273
+      Data3: -1145116748
+      Data4: -276049206
+    Path: event:/Music/Outside_Zone_1-3
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

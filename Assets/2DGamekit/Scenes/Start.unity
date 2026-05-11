@@ -28975,11 +28975,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146966, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318290237554146966, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -29027,31 +29022,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Path
-      value: event:/Music/Outside_Zone_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data1
-      value: 158683078
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data2
-      value: 1336612273
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data3
-      value: -1145116748
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data4
-      value: -276049206
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
