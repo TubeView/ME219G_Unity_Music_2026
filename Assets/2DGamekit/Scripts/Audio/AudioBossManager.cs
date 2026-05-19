@@ -99,7 +99,7 @@ public class AudioBossManager : MonoBehaviour
                 eventInstance.setParameterByName("ShieldState", 0f);
                 eventInstance.start();
                 eventInstance.release();
-                bossMusicEmitter.SetParameter(stunParameter, 0f);
+                bossMusicEmitter.SetParameter(stunParameter, 1f);
                 break;
             case 1:
                 eventInstance = RuntimeManager.CreateInstance(bossShield);
@@ -107,7 +107,7 @@ public class AudioBossManager : MonoBehaviour
                 eventInstance.setParameterByName("ShieldState", 1f);
                 eventInstance.start();
                 eventInstance.release();
-                bossMusicEmitter.SetParameter(stunParameter, 1f);
+                bossMusicEmitter.SetParameter(stunParameter, 0f);
                 break;
         }
     }
@@ -145,12 +145,12 @@ public class AudioBossManager : MonoBehaviour
         if (bossDie.IsNull)
         {
             Debug.LogWarning("Fmod event not found: bossDie");
-            bossMusicEmitter.SetParameter(stunParameter, 1f);
+            bossMusicEmitter.SetParameter(stunParameter, 0f);
             bossMusicEmitter.SetParameter(stageParameter, bossDeathValue);
             return;
         }
         RuntimeManager.PlayOneShotAttached(bossDie, boss);
-        bossMusicEmitter.SetParameter(stunParameter, 1f);
+        bossMusicEmitter.SetParameter(stunParameter, 0f);
         bossMusicEmitter.SetParameter(stageParameter, bossDeathValue);
     }
 }
