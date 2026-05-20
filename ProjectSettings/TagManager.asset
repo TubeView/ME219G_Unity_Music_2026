@@ -33,6 +33,7 @@ TagManager:
   - SnapshotPause
   - MusicCave
   - Bullet
+  - MusicGameOver
   layers:
   - Default
   - TransparentFX

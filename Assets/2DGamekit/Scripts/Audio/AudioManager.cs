@@ -20,6 +20,7 @@ public class AudioManager : MonoBehaviour
         public StudioEventEmitter musicCave;
         public StudioEventEmitter musicBoss;
         public StudioEventEmitter musicPause;
+        public StudioEventEmitter musicGameOver;
         public StudioEventEmitter ambiance;
         public StudioEventEmitter snapShotPause;
     }
