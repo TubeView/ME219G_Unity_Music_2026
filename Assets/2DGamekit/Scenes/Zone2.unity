@@ -7025,7 +7025,7 @@ MonoBehaviour:
       Data2: 1280526200
       Data3: 1591683224
       Data4: 158590661
-    Path: event:/Music/Fog_Flute
+    Path: event:/Music/Overground (Zone 1-3)/Fog_Flute
   Event: 
   EventPlayTrigger: 5
   EventStopTrigger: 6

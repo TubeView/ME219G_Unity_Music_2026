@@ -61,7 +61,8 @@ public class AudioManager : MonoBehaviour
     private EventInstance enemyFootstepInstance;
 
     [Header("Stingers")]
-    [SerializeField] private EventReference stingerGameOver;
+    [SerializeField] private EventReference stingerGameOverStart;
+    [SerializeField] private EventReference stingerGameOverEnd;
     [SerializeField] private EventReference stingerPuzzleSolved;
     [SerializeField] private EventReference stingerKeyPickup;
     [SerializeField] private EventReference stingerWeaponPickup;
@@ -338,12 +339,22 @@ public class AudioManager : MonoBehaviour
     
     public void PlayGameOver()
     {
-        if (stingerGameOver.IsNull)
+        if (stingerGameOverStart.IsNull)
         {
-            Debug.LogWarning("Fmod event not found: stingerGameOver");
+            Debug.LogWarning("Fmod event not found: stingerGameOverStart");
             return;
         }
-        RuntimeManager.PlayOneShot(stingerGameOver);
+        RuntimeManager.PlayOneShot(stingerGameOverStart);
+    }
+    
+    public void StopGameOver()
+    {
+        if (stingerGameOverStart.IsNull)
+        {
+            Debug.LogWarning("Fmod event not found: stingerGameOverEnd");
+            return;
+        }
+        RuntimeManager.PlayOneShot(stingerGameOverEnd);
     }
 
     public void PlayPressurePad()

@@ -51,7 +51,7 @@ MonoBehaviour:
       Data2: 1166728561
       Data3: -1161130871
       Data4: 1641881190
-    Path: event:/Music/Game_Over
+    Path: event:/Music/Game_Over/Game_Over_Loop
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
       Data2: 1187077508
       Data3: -1036315463
       Data4: -1406683969
-    Path: event:/Music/Underground_Zone_4
+    Path: event:/Music/Underground (Zone 4)/Underground_Zone_4
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -303,7 +303,7 @@ MonoBehaviour:
       Data2: 1336612273
       Data3: -1145116748
       Data4: -276049206
-    Path: event:/Music/Outside_Zone_1-3
+    Path: event:/Music/Overground (Zone 1-3)/Outside_Zone_1-3
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -594,13 +594,20 @@ MonoBehaviour:
       Data3: -564437090
       Data4: -914482641
     Path: event:/Enemies/Enemy_Die
-  stingerGameOver:
+  stingerGameOverStart:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -372613194
+      Data2: 1246599126
+      Data3: -1456383570
+      Data4: -689670475
+    Path: event:/Music/Game_Over/Game_Over_Start
+  stingerGameOverEnd:
+    Guid:
+      Data1: -138706292
+      Data2: 1205589829
+      Data3: -842698334
+      Data4: 1726371235
+    Path: event:/Music/Game_Over/Game_Over_End
   stingerPuzzleSolved:
     Guid:
       Data1: 0
