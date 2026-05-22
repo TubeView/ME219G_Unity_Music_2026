@@ -34,6 +34,7 @@ TagManager:
   - MusicCave
   - Bullet
   - MusicGameOver
+  - MusicOvergroundFlute
   layers:
   - Default
   - TransparentFX
