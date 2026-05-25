@@ -621,7 +621,7 @@ MonoBehaviour:
       Data2: 1153692761
       Data3: 1408516535
       Data4: 15041383
-    Path: event:/Stinger_KeyPickUp
+    Path: event:/Music/Stinger_KeyPickUp
   stingerWeaponPickup:
     Guid:
       Data1: 0
