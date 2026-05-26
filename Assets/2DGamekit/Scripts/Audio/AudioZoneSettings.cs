@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using FMOD.Studio;
 using UnityEngine;
 using FMODUnity;
 
@@ -50,6 +51,9 @@ public class AudioZoneSettings : MonoBehaviour
                             i.emitter = GameObject.FindGameObjectWithTag(i.tag).GetComponent<StudioEventEmitter>();
                             if (!i.emitter.EventInstance.isValid())
                                 i.emitter.Play();
+                            i.emitter.EventInstance.getPlaybackState(out PLAYBACK_STATE state);
+                            Debug.Log(i.emitter.EventReference + ", is it playing? " + state);
+                            
                             break;
                         case Action.Stop:
                             i.emitter = GameObject.FindGameObjectWithTag(i.tag).GetComponent<StudioEventEmitter>();
