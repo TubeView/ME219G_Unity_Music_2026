@@ -62621,6 +62621,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
+      propertyPath: invulnerabilityDuration
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
       propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
