@@ -240,7 +240,7 @@ MonoBehaviour:
       Data2: 1317357240
       Data3: 1971500978
       Data4: -563124227
-    Path: event:/Music/Boss_Fight
+    Path: event:/Music/Boss_Fight/Boss_Fight
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -621,7 +621,7 @@ MonoBehaviour:
       Data2: 1153692761
       Data3: 1408516535
       Data4: 15041383
-    Path: event:/Music/Stinger_KeyPickUp
+    Path: event:/Music/Stingers/Stinger_KeyPickUp
   stingerWeaponPickup:
     Guid:
       Data1: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
       Data2: 1227249399
       Data3: 2132375721
       Data4: 1196398900
-    Path: event:/Music/Main_Menu
+    Path: event:/Music/Main_Menu/Main_Menu
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
