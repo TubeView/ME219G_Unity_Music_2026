@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vcaName: 
+  vcaName: SFX
 --- !u!1 &1216115084877434
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,8 +1841,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114784220260169258}
   m_HandleRect: {fileID: 224402909453426660}
   m_Direction: 2
-  m_Value: 0.9999997
-  m_Size: 0.6666666
+  m_Value: 1.0000002
+  m_Size: 0.6666667
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3429,7 +3429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vcaName: 
+  vcaName: Music
 --- !u!1 &1562952272284610
 GameObject:
   m_ObjectHideFlags: 0
@@ -6012,7 +6012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vcaName: 
+  vcaName: Master
 --- !u!1 &1813272048483432
 GameObject:
   m_ObjectHideFlags: 0
