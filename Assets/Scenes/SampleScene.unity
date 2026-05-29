@@ -155,7 +155,7 @@ MonoBehaviour:
       Data2: 1225456052
       Data3: 1076731264
       Data4: -724260907
-    Path: event:/Ambiance/Ambiance_Manager
+    Path: event:/Ambiance/Global/Ambiance_Manager
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 12
