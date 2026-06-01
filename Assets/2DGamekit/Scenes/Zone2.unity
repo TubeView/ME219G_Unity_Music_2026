@@ -1358,7 +1358,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 11.350092, y: -1.3629038}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1368,7 +1368,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4, y: 1}
+  m_Size: {x: 26.700184, y: 3.7258077}
   m_EdgeRadius: 0
 --- !u!114 &114573414
 MonoBehaviour:
@@ -1379,13 +1379,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 114573411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Script: {fileID: 11500000, guid: 559ade3239054624bbc831667cc4d94f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioGlobalParameterTrigger
-  CollisionTag: Player
-  Parameter: EndFlute
-  TriggerEvent: 5
-  Value: 1
+  m_EditorClassIdentifier: Assembly-CSharp::AudioTrigger
+  destroyAfterUse: 0
+  audioTriggerSettings:
+  - emitter: {fileID: 0}
+    tag: MusicOvergroundFlute
+    action: 3
+    parameter: FluteVolume
+    targetValue: 0
 --- !u!1 &126901942
 GameObject:
   m_ObjectHideFlags: 0
@@ -7094,45 +7097,13 @@ GameObject:
   - component: {fileID: 189252207}
   - component: {fileID: 189252208}
   - component: {fileID: 189252209}
-  - component: {fileID: 189252206}
   m_Layer: 20
   m_Name: FogFluteTrigger
-  m_TagString: MusicOvergroundFlute
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &189252206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189252205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: -1183430575
-      Data2: 1280526200
-      Data3: 1591683224
-      Data4: 158590661
-    Path: event:/Music/Overground (Zone 1-3)/Fog_Flute
-  Event: 
-  EventPlayTrigger: 5
-  EventStopTrigger: 0
-  AllowFadeout: 0
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!4 &189252207
 Transform:
   m_ObjectHideFlags: 0
@@ -7185,7 +7156,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 11.435474, y: 1.1504296}
+  m_Offset: {x: 11.435474, y: 0.27126944}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7195,7 +7166,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 26.011269, y: 3.3008592}
+  m_Size: {x: 26.011269, y: 1.5425384}
   m_EdgeRadius: 0
 --- !u!114 &189252209
 MonoBehaviour:
@@ -7206,13 +7177,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 189252205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Script: {fileID: 11500000, guid: 559ade3239054624bbc831667cc4d94f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioGlobalParameterTrigger
-  CollisionTag: Player
-  Parameter: EndFlute
-  TriggerEvent: 5
-  Value: 0
+  m_EditorClassIdentifier: Assembly-CSharp::AudioTrigger
+  destroyAfterUse: 0
+  audioTriggerSettings:
+  - emitter: {fileID: 0}
+    tag: MusicOvergroundFlute
+    action: 1
+    parameter: 
+    targetValue: 0
+  - emitter: {fileID: 0}
+    tag: MusicOvergroundFlute
+    action: 3
+    parameter: FluteVolume
+    targetValue: 1
 --- !u!1 &199207606
 GameObject:
   m_ObjectHideFlags: 0
@@ -8638,13 +8617,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 302689103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Script: {fileID: 11500000, guid: 559ade3239054624bbc831667cc4d94f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioGlobalParameterTrigger
-  CollisionTag: Player
-  Parameter: EndFlute
-  TriggerEvent: 5
-  Value: 1
+  m_EditorClassIdentifier: Assembly-CSharp::AudioTrigger
+  destroyAfterUse: 0
+  audioTriggerSettings:
+  - emitter: {fileID: 0}
+    tag: MusicOvergroundFlute
+    action: 3
+    parameter: FluteVolume
+    targetValue: 0
 --- !u!1 &305131594
 GameObject:
   m_ObjectHideFlags: 0
@@ -36372,13 +36354,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1994614432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Script: {fileID: 11500000, guid: 559ade3239054624bbc831667cc4d94f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioGlobalParameterTrigger
-  CollisionTag: Player
-  Parameter: EndFlute
-  TriggerEvent: 5
-  Value: 1
+  m_EditorClassIdentifier: Assembly-CSharp::AudioTrigger
+  destroyAfterUse: 0
+  audioTriggerSettings:
+  - emitter: {fileID: 0}
+    tag: MusicOvergroundFlute
+    action: 3
+    parameter: FluteVolume
+    targetValue: 0
 --- !u!1001 &1999005765
 PrefabInstance:
   m_ObjectHideFlags: 0
